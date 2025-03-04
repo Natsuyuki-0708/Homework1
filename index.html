@@ -9,11 +9,37 @@
     <style>
 
         .site-header {
+            /*改字形為微軟正黑*/
+            font-family: "Microsoft JhengHei";
+            display: flex;
+            padding: 1em;
+            background-color: #ffffff;
             border-bottom: 1px solid;
         }
 
         html {
             font-family: sans-serif;
+        }
+
+        .main-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-menu li {
+            margin-right: 1em;
+        }
+
+        .nav-menu li:last-child {
+            margin-right: 0;
         }
 
     </style>
@@ -35,9 +61,6 @@
                     </h1>
                 </div>
                 <nav id="site-navigation" class="main-navigation" role="navigation">
-                    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-                        選單
-                    </button>
                     <div class="menu-%e9%a6%96%e9%a0%81%e9%a0%82%e9%83%a8-container">
                         <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
                             <li id="menu-item-16775" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-16775">
@@ -45,22 +68,22 @@
                                     動畫列表
                                 </a>
                             </li>
-                            <li id="menu-item-16716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16716">
+                            <li id="menu-item-16716" class="menu-item">
                                 <a href="https://anime1.me/2025%e5%b9%b4%e5%86%ac%e5%ad%a3%e6%96%b0%e7%95%aa">
                                     2025年冬季新番
                                 </a>
                             </li>
-                            <li id="menu-item-4759" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4759">
+                            <li id="menu-item-4759" class="menu-item">
                                 <a href="https://anime1.me/notify/">
                                     訂閱更新通知
                                 </a>
                             </li>
-                            <li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182">
+                            <li id="menu-item-182" class="menu-item">
                                 <a href="https://anime1.me/%e7%95%99%e8%a8%80%e6%9d%bf">
                                     留言板
                                 </a>
                             </li>
-                            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278">
+                            <li id="menu-item-278" class="menu-item">
                                 <a href="https://anime1.me/%e9%97%9c%e6%96%bc">
                                     關於
                                 </a>
